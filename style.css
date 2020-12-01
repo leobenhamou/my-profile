@@ -1,0 +1,101 @@
+/* colors and fonts */
+
+
+body {
+	background-image: url("https://wallpaperaccess.com/full/22409.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color: rgb(50, 50, 50);
+	font-family: helvetica;
+	font-size: 17px;
+}
+h1, h2, h3 {
+	font-family: courier;
+}
+h1{
+color: red;
+font-family: courier; 
+font-size:  36px;
+}
+h2{
+color: red;
+font-family: courier; 
+font-size:  36px;
+}
+a {
+	text-decoration: none;
+		color: orange;
+}
+ a:hover {
+ 	color: black;
+ }
+
+
+
+/* custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 12px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.card-white ul{ list-style: none;
+	padding-left: 0;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+
+.btn-orange {
+	background: red;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-orange:hover {
+	background: black;
+	color: white;
+}
+
+.list-inline {
+	 list-style: none;
+	 padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+font-size: 50px;
+color: red;
+}
+
+.list-inline i:hover {
+color: black;
+
+}
+
+#introduction p  {
+	margin: 40px;
+
+}
+
+
+
+
+
+
